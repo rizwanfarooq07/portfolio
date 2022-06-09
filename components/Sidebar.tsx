@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+import React, {useEffect} from "react";
 import rizwan from "../public/rizwan.jpg";
 import { AiFillGithub, AiFillLinkedin, AiFillYoutube } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
@@ -12,6 +12,8 @@ const Sidebar = () => {
   const changedTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
+
+  useEffect(() => {setTheme("dark")},[])
 
   return (
     <div>
