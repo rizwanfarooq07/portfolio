@@ -208,12 +208,13 @@ export const skills: string[] = [
   "NextJS",
   "REST Api",
   "Github",
-  "es7",
-  "es6",
+  "es5/es6/es7",
+  "Shopify Polaris",
   "Express",
   "Redux",
   "Redux toolkit",
   "PHP",
   "Google Firebase",
   "MongoDb",
+"Shopify", "npm", "jQuery"
 ];
