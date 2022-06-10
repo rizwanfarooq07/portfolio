@@ -58,7 +58,7 @@ function Cloud({ count = 4, radius = 20 }) {
     const spherical = new THREE.Spherical();
     const phiSpan = Math.PI / (count + 1);
     const thetaSpan = (Math.PI * 2) / count;
-    for (let i = 1; i < count + 1; i++)
+    for (let i = 0; i < count + 1; i++)
       // Taken from https://discourse.threejs.org/t/can-i-place-obects-on-a-sphere-surface-evenly/4773/6
       for (let j = 0; j < count; j++)
         temp.push([
