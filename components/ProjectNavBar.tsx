@@ -5,13 +5,14 @@ const NavItem: FunctionComponent<{
   value: Category | "all";
   handleFilterCategory: Function;
   active: Category | "all";
-}> = ({ value, handleFilterCategory, active }) => {
+  setShowDetails: Function
+}> = ({ value, handleFilterCategory, active, setShowDetails }) => {
   let className = "capitalize cursor-pointer hover:text-green";
   active === value
     ? (className += " text-green  border-b-2 border-green-400")
     : null;
   return (
-    <li className={className} onClick={() => handleFilterCategory(value)}>
+    <li className={className} onClick={() => {handleFilterCategory(value); setShowDetails(null)}}>
       {value}
     </li>
   );

@@ -43,6 +43,7 @@ const Project = () => {
         <ProjectNavBar
           handleFilterCategory={handleFilterCategory}
           active={active}
+          setShowDetails={setShowDetails}
         />
         <motion.div
           className="relative grid grid-cols-12 gap-4 my-3"
