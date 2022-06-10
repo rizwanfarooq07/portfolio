@@ -45,7 +45,7 @@ export const services: ServiceInterface[] = [
 
 export const languages: SkillsInterface[] = [
   {
-    name: "React JS",
+    name: "ReactJS",
     level: "85%",
     Icon: BsCircleFill,
   },
@@ -56,6 +56,11 @@ export const languages: SkillsInterface[] = [
   },
   {
     name: "TypeScript",
+    level: "75%",
+    Icon: BsCircleFill,
+  },
+  {
+    name: "NextJS",
     level: "75%",
     Icon: BsCircleFill,
   },
