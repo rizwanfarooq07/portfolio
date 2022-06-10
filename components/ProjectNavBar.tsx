@@ -5,14 +5,20 @@ const NavItem: FunctionComponent<{
   value: Category | "all";
   handleFilterCategory: Function;
   active: Category | "all";
-  setShowDetails: Function
+  setShowDetails: Function;
 }> = ({ value, handleFilterCategory, active, setShowDetails }) => {
   let className = "capitalize cursor-pointer hover:text-green";
   active === value
     ? (className += " text-green  border-b-2 border-green-400")
     : null;
   return (
-    <li className={className} onClick={() => {handleFilterCategory(value); setShowDetails(null)}}>
+    <li
+      className={className}
+      onClick={() => {
+        handleFilterCategory(value);
+        setShowDetails(null);
+      }}
+    >
       {value}
     </li>
   );
@@ -21,6 +27,7 @@ const NavItem: FunctionComponent<{
 const ProjectNavBar: FunctionComponent<{
   handleFilterCategory: Function;
   active: Category | "all";
+  setShowDetails: Function;
 }> = (props) => {
   return (
     <div className="flex p-3 space-x-3 overflow-x-auto list-none">
