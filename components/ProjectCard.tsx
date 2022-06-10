@@ -1,6 +1,6 @@
 import Image from "next/image";
-import React, { FunctionComponent, useState } from "react";
-import { AiFillGithub, AiFillProject } from "react-icons/ai";
+import React, { FunctionComponent } from "react";
+import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
 import { MdClose } from "react-icons/md";
 import { ProjectsInterface } from "../type";
 import { motion } from "framer-motion";
@@ -26,7 +26,7 @@ const ProjectCard: FunctionComponent<{
 }) => {
   return (
     <div>
-      <Image
+     {showDetails === null && <> <Image
         src={image_path}
         alt={name}
         width={300}
@@ -41,7 +41,7 @@ const ProjectCard: FunctionComponent<{
         className="cursor-pointer"
         onClick={() => setShowDetails(true)}
       /> */}
-      <p className="my-2 text-center">{name}</p>
+      <p className="my-2 text-center">{name}</p></>}
       {showDetails === id && (
         <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
           <motion.div variants={stagger} initial="initial" animate="animate">
@@ -76,8 +76,8 @@ const ProjectCard: FunctionComponent<{
                   target="_blank"
                   className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                 >
-                  <AiFillProject />
-                  <span>Project</span>
+                  <AiOutlineLink />
+                  <span>Visit</span>
                 </a>
               )}
             </motion.div>
