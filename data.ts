@@ -134,6 +134,17 @@ export const projects: ProjectsInterface[] = [
   },
   {
     id: 3,
+    name: "Realtor",
+    description:
+      "A real estate application that let's you browse through proprties available for rent/buy in and around UAE. You can apply different filters like rooms, locations, price, area etc. in order to find the property that suits you the most.",
+    image_path: "/images/realtor.png",
+    deployed_url: "https://realtor-agent.vercel.app/",
+    github_url: "https://github.com/rizwanfarooq07/realtor",
+    category: ["next"],
+    key_techs: ["NextJS", "Javascript", "Chakra-Ui", "RapidApi"],
+  },
+  {
+    id: 4,
     name: "Finding Queen",
     description:
       "King Shan has received intelligence that Al Falcone is hiding in one of six neighbouring planets. In this problem you need to build a UI through which King Shan can choose the planets to search, and the vehicles to use in Finding Falcone.",
@@ -144,18 +155,29 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "CSS"],
   },
   {
-    id: 4,
+    id: 5,
+    name: "GetFit",
+    description:
+      "An exercise browser application built with an aim to help you achieve your fitness goals. It allows user to browse through hundreds of different exercises avaiilable related to any body part, equipments etc",
+    image_path: "/images/getfit.png",
+    deployed_url: "https://get-exercised.netlify.app/",
+    github_url: "https://github.com/rizwanfarooq07/getfit",
+    category: ["react"],
+    key_techs: ["React", "Javascript", "Material UI"],
+  },
+  {
+    id: 6,
     name: "TeeRexStore",
     description:
       "A front-end teeshirts shopping store that let's you search, filter(price, color, gender, type) and add products to cart then go to cart to see the order details like total amount, quantity etc.",
     image_path: "/images/teerex.png",
-    deployed_url: "https://teerexstore.netlify.app",
+    deployed_url: "https://get-exercised.netlify.app",
     github_url: "https://github.com/rizwanfarooq07/teerexstore",
     category: ["react"],
     key_techs: ["React", "Material UI", "React-router V6"],
   },
   {
-    id: 5,
+    id: 7,
     name: "CineBucket",
     description:
       "A frontend movie and shows browsing application that allows users to search shows, movies or both simultaneously using OMDb api",
@@ -166,7 +188,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "SCSS", "Redux-toolkit"],
   },
   {
-    id: 6,
+    id: 8,
     name: "Facebook Clone App",
     description:
       "A facebook clone application that let's users to login using their google account and post pictures with cations",
@@ -177,7 +199,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "TailwindCSS", "Google Firebase"],
   },
   {
-    id: 7,
+    id: 9,
     name: "MeetUps",
     description:
       "A full stack application that allows users to post thier meeting place in order to keep their precious memories safe.",
@@ -189,7 +211,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "Nodejs", "CSS"],
   },
   {
-    id: 8,
+    id: 10,
     name: "Quotes for Thought",
     description:
       "A full stack application that allows users to convert thier thoughts into valuable quotes",
