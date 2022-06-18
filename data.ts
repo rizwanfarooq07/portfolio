@@ -163,7 +163,7 @@ export const projects: ProjectsInterface[] = [
     deployed_url: "https://get-exercised.netlify.app/",
     github_url: "https://github.com/rizwanfarooq07/getfit",
     category: ["react"],
-    key_techs: ["React", "Javascript", "Material UI"],
+    key_techs: ["React", "Javascript", "Material UI", "RapidApi"],
   },
   {
     id: 6,
