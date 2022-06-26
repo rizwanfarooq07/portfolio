@@ -126,7 +126,7 @@ export const projects: ProjectsInterface[] = [
     name: "BoatCom",
     description:
       "A demo shopping application that allows user to browse through different categories of gadgets, add them to cart and place an order. Stripe api is used for the payment method",
-    image_path: "/images/proshop.png",
+    image_path: "/images/boatcom.png",
     deployed_url: "https://boatcom.vercel.app/",
     github_url: "https://github.com/rizwanfarooq07/BoatCom",
     category: ["next"],
