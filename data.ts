@@ -134,6 +134,28 @@ export const projects: ProjectsInterface[] = [
   },
   {
     id: 3,
+    name: "Twiter 2.0",
+    description:
+    "A demo twitter application that allows user to login, post tweets with picture and add comments to create beatifull threads.",
+    image_path: "/images/twitter.png",
+    deployed_url: "https://twitter-2-0-seven.vercel.app/",
+    github_url: "https://github.com/rizwanfarooq07/twitter-2.0",
+    category: ["next"],
+    key_techs: ["NextJS", "Typescript", "TailwindCSS", "Twitter OAuth 2.0"],
+  },
+  {
+    id: 4,
+    name: "Cryptoverse",
+    description:
+    "A cryto currency application that allows you to search through hundreds of crypto and gives you all the details and latest news related to it",
+    image_path: "/images/crypto.png",
+    deployed_url: "https://cryptoplanet.netlify.app/",
+    github_url: "https://github.com/rizwanfarooq07/cryptoverse",
+    category: ["react"],
+    key_techs: ["React", "Javascript", "CSS", "RapidApi"],
+  },
+  {
+    id: 5,
     name: "Tell the Sky",
     description:
     "A weather application that informs the users about the current weather of any city of the user's choice.",
@@ -144,7 +166,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "Javascript", "TailwindCSS", "Openweatherapi"],
   },
   {
-    id: 4,
+    id: 6,
     name: "ProShop",
     description:
       "A full stack shopping application that allows user to create their personal account, add items to cart and checkout after filling all the shipping details.",
@@ -155,7 +177,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "Bootstrap", "Nodejs", "Redux"],
   },
   {
-    id: 5,
+    id: 7,
     name: "Google 2.0",
     description:
       "A demo google application with the google search (all , news, images , videos ) functionality.",
@@ -166,7 +188,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "Javascript", "TailwindCSS", "RapidApi"],
   },
   {
-    id: 6,
+    id: 8,
     name: "Hulu 2.0",
     description:
       "A demo hulu application that let's you browse through different categories of movies that are fetched using TMDb api.",
@@ -177,7 +199,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["NextJS", "Typescript", "TailwindCSS"],
   },
   {
-    id: 7,
+    id: 9,
     name: "Realtor",
     description:
       "A real estate application that let's you browse through proprties available for rent/buy in and around UAE. You can apply different filters like rooms, locations, price, area etc. in order to find the property that suits you the most.",
@@ -188,7 +210,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["NextJS", "Javascript", "Chakra-Ui", "RapidApi"],
   },
   {
-    id: 8,
+    id: 10,
     name: "Finding Queen",
     description:
       "King Shan has received intelligence that Al Falcone is hiding in one of six neighbouring planets. In this problem you need to build a UI through which King Shan can choose the planets to search, and the vehicles to use in Finding Falcone.",
@@ -199,7 +221,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "CSS"],
   },
   {
-    id: 9,
+    id: 11,
     name: "GetFit",
     description:
       "An exercise browser application built with an aim to help you achieve your fitness goals. It allows user to browse through hundreds of different exercises avaiilable related to any body part, equipments etc",
@@ -210,7 +232,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "Javascript", "Material UI", "RapidApi"],
   },
   {
-    id: 10,
+    id: 12,
     name: "TeeRexStore",
     description:
       "A front-end teeshirts shopping store that let's you search, filter(price, color, gender, type) and add products to cart then go to cart to see the order details like total amount, quantity etc.",
@@ -221,7 +243,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "Material UI", "React-router V6"],
   },
   {
-    id: 11,
+    id: 13,
     name: "CineBucket",
     description:
       "A frontend movie and shows browsing application that allows users to search shows, movies or both simultaneously using OMDb api",
@@ -232,7 +254,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "SCSS", "Redux-toolkit"],
   },
   {
-    id: 12,
+    id: 14,
     name: "Facebook Clone App",
     description:
       "A facebook clone application that let's users to login using their google account and post pictures with cations",
@@ -243,7 +265,7 @@ export const projects: ProjectsInterface[] = [
     key_techs: ["React", "TailwindCSS", "Google Firebase"],
   },
   {
-    id: 13,
+    id: 15,
     name: "MeetUps",
     description:
       "A full stack application that allows users to post thier meeting place in order to keep their precious memories safe.",
@@ -252,10 +274,10 @@ export const projects: ProjectsInterface[] = [
       "https://next-meetup-app-cxp71ijnl-rizwanfarooq07.vercel.app/",
     github_url: "https://github.com/rizwanfarooq07/next-meetup-app",
     category: ["next", "node", "express", "mongo"],
-    key_techs: ["React", "Nodejs", "CSS"],
+    key_techs: ["NextJS", "Nodejs", "CSS"],
   },
   {
-    id: 14,
+    id: 16,
     name: "Quotes for Thought",
     description:
       "A full stack application that allows users to convert thier thoughts into valuable quotes",
