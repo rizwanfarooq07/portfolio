@@ -287,6 +287,17 @@ export const projects: ProjectsInterface[] = [
     category: ["react", "node", "express", "mongo"],
     key_techs: ["React", "CSS", "Nodejs"],
   },
+  {
+    id: 17,
+    name: "Admin Panel",
+    description:
+      "A frontend application which allows user to perform search, filter, select , delete etc. functions from a list of users",
+    image_path: "/images/qof.png",
+    deployed_url: "https://rizwan-panel.netlify.app/",
+    github_url: "https://github.com/rizwanfarooq07/admin_panel",
+    category: ["react"],
+    key_techs: ["React", "CSS"],
+  },
 ];
 
 export const skills: string[] = [
